@@ -1,7 +1,7 @@
 ---
 title: "Initial Korean covid 19"
-author: "your name here"
-date: "todays date"
+author: "Joshua Orozco"
+date: "11/12/2026"
 output:
   html_document: default
   pdf_document: default
@@ -27,7 +27,15 @@ Variables of interest: sex, result
 Research Question: - Is dying independent of sex?
 
 # Introduction
+Using Kdata, can we determine that men and women are equally likely to die of covid 19 from data collected in South Korea through May 2019?
 
+$H_A$ there is relationship between genders and death from covid 19 in South Korea in 2019.
+
+$H_0$ there is no relationship between gender and death from covid 19 in south Korea in 2019.  
+
+# Methods 
+
+ 
 # Data Results
 
 ## Graphical results    
