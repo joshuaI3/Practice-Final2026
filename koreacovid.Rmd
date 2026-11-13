@@ -35,10 +35,19 @@ $H_0$ there is no relationship between gender and death from covid 19 in south K
 
 # Methods 
 
+sex is categorical.  
+result is categorical.   
  
 # Data Results
 
+
 ## Graphical results    
+
+```{r}
+barchartGC(~result + sex,data=kData)
+barchartGC(~result + sex,data=kData, type="percent")
+
+```
 
 ## Numerical results
 
