@@ -39,8 +39,6 @@ sex is categorical.
 result is categorical.   
  
 # Data Results
-
-
 ## Graphical results    
 
 ```{r}
@@ -48,10 +46,26 @@ barchartGC(~result + sex,data=kData)
 barchartGC(~result + sex,data=kData, type="percent")
 
 ```
+the graph suggest that males are likely to die in comparison to females.
 
 ## Numerical results
 
+```{r}
+table1 <- xtabs(~result + Sex, data=kData)
+rowPerc(table1)
+colPerc(table1)
+```
+numerical result shows that 64% of males died compared to 36% of females, indicating that men are more likely to die faster.  
+
 ## Inferential results 
 
-# Conclusions
+```{r}
+chisq.test(table1)
+chisqtestGC(table1)
+fisher.test(table1)
+```
 
+# Conclusions
+the P value is less than .005   
+we reject the Null hypothesis.   
+And conclude that there is connection between sex and death from covid 19.   
