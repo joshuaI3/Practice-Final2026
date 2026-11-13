@@ -64,8 +64,10 @@ chisq.test(table1)
 chisqtestGC(table1)
 fisher.test(table1)
 ```
+the P value is less than .005     
+we reject the Null hypothesis.     
+And conclude that there is connection between sex and death from covid 19.  
 
 # Conclusions
-the P value is less than .005   
-we reject the Null hypothesis.   
-And conclude that there is connection between sex and death from covid 19.   
+
+
